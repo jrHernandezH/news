@@ -1,0 +1,21 @@
+/*Integracion de mis demas estilos por carpeta a mi archivo general*/
+
+@import url(./inicio/header.css);
+@import url(./inicio/main.css);
+
+/*estilos que deseo en todo mi sitio web*/
+*{
+    box-sizing: border-box;
+}
+:root {
+    --color-titular: #333333;
+    --color-titulos-secundarios: #262626;
+    --color-subtitulos: #646363;
+    --color-fondo: #D2D2D2;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--color-fondo);
+}

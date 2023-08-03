@@ -1,0 +1,113 @@
+.main{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto;
+}
+.notice{
+    width: auto;
+    display: grid;
+    justify-items: safe;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+.notice > figure{
+    width: 627px;
+    height: 544px;
+    background: #D9D9D9;
+    filter: grayscale(100%);
+}
+figure img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.notice h3{
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 50px;
+    color: var(--color-titulos-secundarios);
+    font-family: 'Lora';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.notice h4{
+    margin-top: 0px;
+    margin-left: 81px;
+    color: var(--color-subtitulos);
+    font-family: 'Baskerville Old Face';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.container figure{
+    width: 500px;
+    height: 180px;
+    background: #D9D9D9;
+    filter: grayscale(100%);
+}
+.articles h3{
+    color: var(--color-titulos-secundarios);
+    font-family: 'Playfair Display';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+.nav{
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: #D9D9D9;
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    color: #646363;
+
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.2); 
+
+    transition:  background ease-in-out .3s;
+}
+.nav a:hover {
+    background: #C0C0C0; 
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3); 
+  }
+  /*pruebas*/
+.text{
+   margin: 20px auto;
+   width: 500px;
+}
+.text p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Merriweather';
+    color: var(--color-titulos-secundarios);
+}
+.text p::first-letter{
+    font-size: 2em; /* Tamaño de la primera letra */
+    line-height: 1; /* Para ajustar el espacio entre la primera letra y el texto */
+    font-weight: bold; 
+}
